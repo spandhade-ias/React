@@ -17,6 +17,8 @@ import Refs from "./components/Refs";
 import FRParentInput from "./components/RefForwarding/FRParentInput";
 import ClickCounter from "./components/HigherOrderComponents/ClickCounter";
 import HoverCounter from "./components/HigherOrderComponents/HoverCounter";
+import { UserConsumer, UserProvider } from "./components/Context/userContext";
+import ComponentC from "./components/Context/ComponentC";
 function App() {
   return (
     <div className="App">
@@ -44,7 +46,7 @@ function App() {
         <ClassClick></ClassClick>*/}
 
       {/*14 sEvent Binding*/}
-      {/*<Eventbind></Eventbind>*/}
+      {/*<Even  tbind></Eventbind>*/}
 
       {/*15.Methods as Props */}
       {/*<ParentComponent></ParentComponent>*/}
@@ -65,6 +67,12 @@ function App() {
       {/*<ClickCounter />
          <HoverCounter />*/}
 
+      {/*39 Context */}
+      {/* 
+      <UserProvider value="Sahil">
+        <ComponentC />
+      </UserProvider>
+      */}
       
     </div>
   );
