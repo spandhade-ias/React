@@ -1,3 +1,5 @@
+//34 Higher Order Component
+//REUSING CODE RATHER THAN DUPLICATING IT
 import React from "react";
 
 const UpdatedComponent = (OriginalComponent)=>{

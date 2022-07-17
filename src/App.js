@@ -62,8 +62,10 @@ function App() {
       {/*<FRParentInput></FRParentInput>*/}
 
       {/*34 Higher Order Components */}
-      <ClickCounter />
-      <HoverCounter />
+      {/*<ClickCounter />
+         <HoverCounter />*/}
+
+      
     </div>
   );
 }
