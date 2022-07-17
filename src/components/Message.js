@@ -1,3 +1,4 @@
+//11 setState
 import React,{ Component } from "react";
 
 class Message extends Component{
